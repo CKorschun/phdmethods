@@ -9,3 +9,6 @@ global tableoptions "bf(%15.2gc) sfmt(%15.2gc) prehead(\begin{tabular}{l*{14}{c}
 esttab regression_one using assignment1-research-methods.tex, $tableoptions keep(calledback)
 global tableoptions "bf(%15.2gc) sfmt(%15.2gc) se label noisily noeqlines nonumbers varlabels(_cons Constant, end("" ) nolast)  starlevels(* 0.1 ** 0.05 *** 0.01) replace r2"
 esttab regression_one using assignment1-research-methods.docx, $tableoptions keep(calledback) 
+putdocx begin
+putdocx table tbl1 = esttab
+putdocx save assignment-research-methods
