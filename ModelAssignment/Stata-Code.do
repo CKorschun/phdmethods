@@ -1,10 +1,10 @@
 /* Type these commands to install the "estout" package: 
 
-ssc install estout
+
 
 Also: Note you can type help [command] into Stata to get help on any command. 
 */
-
+ssc install estout
 * Read in data: 
 insheet using Ai-Experiment-Data.csv, comma names clear
 

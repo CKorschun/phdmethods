@@ -1,0 +1,239 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"capitalize",
+				"capitalized"
+			],
+			[
+				"cities",
+				"cities"
+			],
+			[
+				"s",
+				"siblings"
+			],
+			[
+				"user",
+				"user"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"uppercased",
+				"uppercased_and_reversed_text"
+			],
+			[
+				"upper_",
+				"uppercase_and_reverse"
+			],
+			[
+				"greet",
+				"greet_by_name"
+			],
+			[
+				"t",
+				"teddy_bear_fee"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/ck518/Documents/GitHub/phdmethods/HW1/MakeCode.r",
+		"/C/Users/ck518/Documents/GitHub/phdmethods/HW1/Stata-Code.do",
+		"/C/Users/ck518/Documents/GitHub/phdmethods/ModelAssignment/test.do",
+		"/C/Users/ck518/AppData/Roaming/Sublime Text 3/Packages/StataEditor/StataEditor.sublime-settings",
+		"/C/Users/ck518/AppData/Roaming/Sublime Text 3/Packages/User/StataEditor.sublime-settings",
+		"/C/Users/ck518/Documents/GitHub/phdmethods/hw1/test",
+		"/C/Users/ck518/Desktop/IPP/notebook_intro.ipynb",
+		"/C/Users/ck518/Desktop/IPP/imdb_top_10000.csv",
+		"/C/Users/ck518/Desktop/IPP/notebook_intro.py",
+		"/C/Users/ck518/Desktop/IPP/google_scraper.py",
+		"/C/Users/ck518/Desktop/IPP/wsj_challenge.py",
+		"/C/Users/ck518/Desktop/IPP/craigslist_scraper.py",
+		"/C/Users/ck518/Desktop/IPP/assignment3.py",
+		"/C/Users/ck518/Desktop/IPP/class3.py",
+		"/C/Users/ck518/Desktop/IPP/class1.py",
+		"/C/Users/ck518/Desktop/IPP/class2.py",
+		"/C/Users/ck518/Desktop/IPP/sms.py",
+		"/C/Users/ck518/Desktop/IPP/weather_checker.py",
+		"/C/Users/ck518/Desktop/IPP/assignment1.py",
+		"/C/Users/ck518/Desktop/IPP/assignment2.py",
+		"/C/Users/ck518/Desktop/IPP/finance_functions.py",
+		"/C/Users/ck518/Desktop/IPP/class3functions.py",
+		"/C/Users/ck518/Desktop/IPP/signin.py",
+		"/C/Users/ck518/Desktop/IPP/fizzbuzzsolution.py",
+		"/C/Users/ck518/Desktop/IPP/class3challenge.py",
+		"/C/Users/ck518/Desktop/IPP/shuffle.py",
+		"/C/Users/ck518/Desktop/IPP/logic_practice.py",
+		"/C/Users/ck518/Desktop/IPP/google_credentials.json",
+		"/C/Users/ck518/Desktop/IPP/happy_hour.py",
+		"/C/Users/ck518/Downloads/assignment2 (1).py",
+		"/C/Users/ck518/Desktop/IPP/fizzbuzzchallenge.py",
+		"/C/Users/ck518/Downloads/google_credentials.json",
+		"/C/Users/ck518/Desktop/IPP/google_credentials.py",
+		"/C/Users/ck518/Desktop/IPP/google_credentials (1).json",
+		"/C/Users/ck518/Desktop/IPP/challenge1.py"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "HW1.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 439.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
