@@ -6,28 +6,25 @@ putdocx begin
 
 // Create a paragraph
 putdocx paragraph
-putdocx text ("putdocx "), bold
-putdocx text ("can add formatted text to a paragraph.  You can ")
-putdocx text ("italicize, "), italic
-putdocx text ("strikeout, "), strikeout
-putdocx text ("underline"), underline
-putdocx text (", sub/super script")
-putdocx text ("2 "), script(sub)
-putdocx text (", and ")
-putdocx text ("shade"), shading("blue")
+putdocx text ("Table 1:"), bold
+putdocx text (" Effect of Elite School Candidates on Call Backs for Interviews")
 qui sum calledback
 local sum : display %4.2f `r(sum)'
-putdocx text (".  Also, you can easily add Stata results to your paragraph (calledback total = `sum')")
 
 
 // Embed Stata output
 putdocx paragraph
 
-putdocx text ("Embed the output from a regression command into your docx file.")
-label variable calledback "called back"
-label variable eliteschoolcandidate "Elite School Candidate"
+label var calledback "Called Back"
+label var eliteschoolcandidate "Elite School Candidate"
 regress eliteschoolcandidate calledback
 putdocx table mytable = etable
 
+global tableoptions "bf(%15.2gc) sfmt(%15.2gc) se label noisily noeqlines nonumbers varlabels(_cons Constant, end("" ) nolast)  starlevels(* 0.1 ** 0.05 *** 0.01) replace r2"
+esttab using assignment1-research-methods.docx, $tableoptions keep(calledback) 
 
-putdocx save "assignment1-research-methods.docx", replace
+putdocx paragraph
+putdocx text ("The Elite School Candidates appear to make subjects 15 percentage points more likely to be called back.")
+
+
+putdocx save "assignment1.2-research-methods.docx", replace
