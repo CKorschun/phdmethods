@@ -3,7 +3,8 @@ ssc install reg2docx
 insheet using assignment1-research-methods.csv, comma names clear
 label variable calledback "Called Back"
 label variable eliteschoolcandidate "Elite School Candidate"
-reg eliteschoolcandidate calledback
+label variable malecandidate "Male Candidate"
+reg eliteschoolcandidate calledback malecandidate
 eststo regression_one
 
 esttab regression_one, label title("Table 1: Effect of Elite School Candidates on Call Backs for Interviews") mtitle("Elite School Candidates")
